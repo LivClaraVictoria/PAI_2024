@@ -20,4 +20,4 @@ The posterior inference implementation is evaluated on 50 random datasets (with 
 
 $$H(P,Q) = \sqrt{\frac{1}{2} \sum_{i=1}^3 (\sqrt{P_i} - \sqrt{q_i})^2}$$
 
-between your posterior Q and the correct posterior P. The score of your submission is the average of 1−H(P,Q) across the 50 datasets. If your implementation is correct, you should get a score close to 1.0. You pass this task with a score > 0.98. 
+between your posterior $Q$ and the correct posterior $P$. You can calculate a score by taking the average of $1−H(P,Q)$ across the 50 datasets. If your implementation is correct, you should get a score close to 1.0. 
