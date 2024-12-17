@@ -8,7 +8,7 @@ Using Bayes' Theorem we have
 
 $$p(H_i|X) = \frac{p(X|H_i)p(H_i)}{p(X)} = \frac{p(X|H_i)p(H_i)}{\sum_i p(X|H_i)p(H_i)}$$  
 
-$$p(X|H_i) = \prod_{x \in X}p(x|H_i)$$ as samples are i.i.d.$$
+$$p(X|H_i) = \prod_{x \in X}p(x|H_i)$$ as samples are i.i.d.
 
 For numerical reasons we use log probs, so we need to adjust the formula  
 
