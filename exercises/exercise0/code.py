@@ -7,9 +7,9 @@ import numpy as np
 
 VARIANCE = 2.0
 
-normal_scale = math.sqrt(VARIANCE)
-student_t_df = (2 * VARIANCE) / (VARIANCE - 1)
-laplace_scale = VARIANCE / 2
+normal_scale = math.sqrt(VARIANCE) 
+student_t_df = (2 * VARIANCE) / (VARIANCE - 1) #4
+laplace_scale = VARIANCE / 2 #1
 
 HYPOTHESIS_SPACE = [norm(loc=0.0, scale=normal_scale),
                     laplace(loc=0.0, scale=laplace_scale),
