@@ -42,8 +42,6 @@ def log_posterior_probs(x):
     """
     assert x.ndim == 1
 
-    # TODO: enter your code here
-
     # calculate log_p(X|Hi) = sum ( log p(x|Hi)) for each i and insert l+ log_p(Hi) into array
     log_p = np.zeros(3)
 
